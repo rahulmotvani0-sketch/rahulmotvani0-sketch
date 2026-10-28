@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hi there, I'm Rahul Motvani 👋
-### 🛡️ Senior DevOps, DevSecOps & Site Reliability Engineer (SRE)
+### 🛡️ DevOps Engineer | Production SaaS, DevSecOps & SRE
 
 <p align="center">
   <b>4+ Years Architecting Enterprise Cloud Infrastructure, Zero-Secrets GitOps, Production Kubernetes & Shift-Left DevSecOps</b>
@@ -109,4 +109,4 @@
 - 🌐 **Interactive Portfolio:** [rahul.techiking.com](https://rahul.techiking.com)
 - 🎯 **TryHackMe:** [tryhackme.com/p/rahulmotvani8gma](https://tryhackme.com/p/rahulmotvani8gma)
 - 📧 **Direct Email:** [rahulmotvani8@gmail.com](mailto:rahulmotvani8@gmail.com)
-- 🤝 **Open to:** Senior DevOps Engineer, DevSecOps Specialist, SRE, and Cloud Platform Engineering roles.
+- 🤝 **Open to:** DevOps Engineer, DevSecOps Specialist, SRE, and Cloud Platform Engineering roles.
