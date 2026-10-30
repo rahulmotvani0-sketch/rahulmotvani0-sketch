@@ -122,6 +122,23 @@
 
 </div>
 
+#### ⚡ Recent Engineering & Delivery Activity
+
+<!-- RECENT_ACTIVITY_START -->
+
+| Activity | Target Repository | Date |
+| :--- | :--- | :--- |
+| 🚀 Pushed code to | [`rahulmotvani0-sketch/devsecops-secure-cicd-template`](https://github.com/rahulmotvani0-sketch/devsecops-secure-cicd-template) | `2026-10-28` |
+| 🚀 Pushed code to | [`rahulmotvani0-sketch/aws-serverless-secure-api`](https://github.com/rahulmotvani0-sketch/aws-serverless-secure-api) | `2026-10-28` |
+| 🚀 Pushed code to | [`rahulmotvani0-sketch/vault-secrets-operator-k8s`](https://github.com/rahulmotvani0-sketch/vault-secrets-operator-k8s) | `2026-10-28` |
+| 📦 Created repository/branch in | [`rahulmotvani0-sketch/velero-disaster-recovery-backup`](https://github.com/rahulmotvani0-sketch/velero-disaster-recovery-backup) | `2026-10-28` |
+| 📦 Created repository/branch in | [`rahulmotvani0-sketch/k8s-autoscaling-high-availability`](https://github.com/rahulmotvani0-sketch/k8s-autoscaling-high-availability) | `2026-10-28` |
+| 📦 Created repository/branch in | [`rahulmotvani0-sketch/vault-secrets-operator-k8s`](https://github.com/rahulmotvani0-sketch/vault-secrets-operator-k8s) | `2026-10-28` |
+
+*Updated automatically via GitHub Actions • Last synced: 2026-10-30 05:02 UTC*
+
+<!-- RECENT_ACTIVITY_END -->
+
 ---
 
 ### 💬 Let's Connect & Collaborate
