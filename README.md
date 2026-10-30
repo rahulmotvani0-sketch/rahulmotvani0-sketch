@@ -112,12 +112,12 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rahulmotvani0-sketch&theme=tokyonight" alt="Rahul's GitHub Profile Details" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rahulmotvani0-sketch&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Rahul's GitHub Streak" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rahulmotvani0-sketch&theme=tokyonight" alt="Rahul's GitHub Stats" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rahulmotvani0-sketch&theme=tokyonight&hide_border=true&cache_bust=20261030" alt="Rahul's Streak" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rahulmotvani0-sketch&theme=tokyonight" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rahulmotvani0-sketch&theme=tokyonight" alt="Top Languages" width="100%" />
 </p>
 
 </div>
@@ -135,7 +135,7 @@
 | 📦 Created repository/branch in | [`rahulmotvani0-sketch/k8s-autoscaling-high-availability`](https://github.com/rahulmotvani0-sketch/k8s-autoscaling-high-availability) | `2026-10-28` |
 | 📦 Created repository/branch in | [`rahulmotvani0-sketch/vault-secrets-operator-k8s`](https://github.com/rahulmotvani0-sketch/vault-secrets-operator-k8s) | `2026-10-28` |
 
-*Updated automatically via GitHub Actions • Last synced: 2026-10-30 05:12 UTC*
+*Updated automatically via GitHub Actions • Last synced: 2026-10-30 05:34 UTC*
 
 <!-- RECENT_ACTIVITY_END -->
 
