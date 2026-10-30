@@ -1,10 +1,10 @@
 <div align="center">
 
 # Hi there, I'm Rahul Motvani 👋
-### 🛡️ DevOps Engineer | Production SaaS, DevSecOps & SRE
+### 🛡️ DevOps & DevSecOps Engineer | SRE, Cloud Infrastructure & AI Systems
 
 <p align="center">
-  <b>4+ Years Architecting Enterprise Cloud Infrastructure, Zero-Secrets GitOps, Production Kubernetes & Shift-Left DevSecOps</b>
+  <b>Architecting Zero-Trust Cloud Platforms, Shift-Left Security Pipelines, Resilient Kubernetes & AI Infrastructure</b>
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul%20Motvani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahulmotvani/)
@@ -19,10 +19,11 @@
 
 ### 👨‍💻 Engineering Profile & Core Philosophy
 
-- 🔭 **Cloud Infrastructure:** Operating high-availability, multi-region production workloads across **AWS** (EKS, ECS, Lambda, DynamoDB, WAFv2, IAM least-privilege) and **Azure** (AKS, Application Insights, Azure Monitor).
-- 🔐 **Zero-Secrets & DevSecOps:** Enterprise secrets management with **HashiCorp Vault** & **External Secrets Operator (ESO)**; shift-left supply chain security enforcing SAST, DAST, SCA, container image signing with **Sigstore Cosign**, and **CycloneDX/SPDX SBOMs**.
-- ☸️ **Kubernetes & GitOps:** Production container orchestration (EKS / AKS / Kind), declarative **ArgoCD App-of-Apps**, Zero-Trust mesh with **Istio**, and automated **HPA v2 / PDB** autoscaling.
-- 📈 **SRE & Observability:** Google Golden Signals / RED metrics instrumentation with **Prometheus**, **Alertmanager**, **Grafana**, and **Loki** distributed logging.
+- ☁️ **Cloud Infrastructure & IaC:** Operating high-availability, multi-region production workloads across **AWS** (EKS, ECS, Lambda ARM64, DynamoDB, WAFv2, IAM least-privilege) and **Azure** (AKS, Azure Monitor, Key Vault). Enforcing immutable infrastructure via modular **Terraform** with remote state locking and automated drift detection.
+- 🔐 **Zero-Secrets & DevSecOps:** Enterprise secrets management with **HashiCorp Vault** (Dynamic Database Engine) & **External Secrets Operator (ESO)**; shift-left supply chain security enforcing SAST, DAST, SCA, container image signing with **Sigstore Cosign**, and **CycloneDX/SPDX SBOMs**.
+- ☸️ **Kubernetes & GitOps Orchestration:** Production container orchestration across **EKS**, **AKS**, and **Kind**, declarative **ArgoCD App-of-Apps** patterns, Zero-Trust service mesh with **Istio** (STRICT mTLS & L7 policies), and automated **HPA v2 / PDB** autoscaling.
+- 📈 **SRE, Observability & Resilience:** Google Golden Signals / RED metrics instrumentation with **Prometheus**, **Alertmanager**, **Grafana**, and **Loki** distributed logging. Automated disaster recovery drills and snapshotting with **Velero** (RTO < 15 min).
+- 🤖 **AI Systems & Platform Engineering:** Deploying local-first offline LLM inference (**Ollama**, **Qwen2.5**, **LLaMA**), semantic RAG pipelines, autonomous agent discovery networks with 14+ ATS connectors, and cross-platform desktop security tooling with **Rust** and **Tauri**.
 - 🎯 **Security Ranking:** Ranked in the **Top 3% worldwide** on TryHackMe.
 
 ---
@@ -34,13 +35,14 @@
 | Domain | Tools & Technologies |
 | :--- | :--- |
 | **Cloud Platforms** | `AWS (EKS, ECS, Lambda, DynamoDB, WAFv2, IAM, VPC, CloudWatch)` • `Azure (AKS, Azure Monitor, Key Vault)` |
-| **Secrets & Identity** | `HashiCorp Vault (Dynamic Database Engine)` • `External Secrets Operator (ESO)` • `OIDC Keyless Auth` |
+| **Secrets & Identity** | `HashiCorp Vault (Dynamic Database Engine)` • `External Secrets Operator (ESO)` • `OIDC Keyless Auth` • `IAM Least-Privilege` |
 | **Container & Orchestration** | `Kubernetes (K8s)` • `Docker` • `Helm` • `ArgoCD (App-of-Apps GitOps)` • `Istio Service Mesh` • `Kind` |
-| **Infrastructure as Code** | `Terraform (Modular / Remote State / Locking)` • `AWS CDK` • `HCL` • `Makefiles` |
+| **Infrastructure as Code** | `Terraform (Modular / Remote State / Locking)` • `AWS CDK` • `HCL` • `Makefiles` • `Drift Detection` |
 | **CI/CD & Automation** | `GitHub Actions (Reusable Composite Actions)` • `Jenkins` • `GitLab CI` • `Bash / POSIX Automation` |
-| **DevSecOps & Supply Chain** | `Trivy (SCA & Containers)` • `Semgrep (SAST)` • `Gitleaks` • `Checkov (IaC)` • `Cosign` • `Syft (SBOM)` |
-| **SRE & Resilience** | `Prometheus` • `Grafana` • `Alertmanager` • `Loki & Promtail` • `Velero (Disaster Recovery)` • `SLI / SLO` |
-| **Languages & Systems** | `Python` • `TypeScript` • `Node.js` • `Bash` • `Go` • `Rust / Tauri` • `SQL / PostgreSQL` |
+| **DevSecOps & Supply Chain** | `Trivy (SCA & Containers)` • `Semgrep (SAST)` • `Gitleaks` • `Checkov (IaC)` • `Sigstore Cosign` • `Syft (SBOM)` |
+| **SRE & Resilience** | `Prometheus` • `Grafana` • `Alertmanager` • `Loki & Promtail` • `Velero (Disaster Recovery)` • `Chaos Engineering` • `SLI / SLO` |
+| **AI Systems & Agents** | `Ollama (Local LLM Inference)` • `vLLM` • `FastEmbed` • `RAG Pipelines` • `Autonomous ATS Connectors` • `LLM Agent Workflows` |
+| **Languages & Systems** | `Python` • `TypeScript` • `Go` • `Rust / Tauri` • `Bash / Shell` • `Node.js` • `SQL / PostgreSQL / SQLite` |
 
 </div>
 
@@ -54,11 +56,11 @@
 * **External Secrets Operator (ESO)** synchronizes credentials into native Kubernetes Secrets via ServiceAccount JWT auth, eliminating intrusive sidecars.
 * `Tags:` *HashiCorp Vault • External Secrets Operator • Kubernetes • PostgreSQL • GitOps • DevSecOps*
 
-#### ☸️ [Kubernetes GitOps & SRE Observability Platform](https://github.com/rahulmotvani0-sketch/kubernetes-gitops-observability-platform)
-* Turnkey multi-node Kind cluster bootstrapping driven declaratively by the **ArgoCD App-of-Apps pattern**.
-* Complete **Prometheus & Grafana RED** monitoring stack with Alertmanager routing and automated chaos engineering failure recovery.
-* Full distributed logging pipeline using **Grafana Loki** and **Promtail DaemonSet**.
-* `Tags:` *Kubernetes • GitOps • ArgoCD • Prometheus • Grafana • Loki • SRE • Chaos Engineering*
+#### 🤖 [Autonomous AI Job Discovery & Application Automation Platform](https://github.com/rahulmotvani0-sketch/ai-job-discovery-platform)
+* Autonomous local-first career command center featuring a distributed **Global Connector System** (14+ platforms: Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Recruitee, RemoteOK, Himalayas, YC, USAJobs).
+* **Local-first offline AI inference** via **Ollama** (`qwen2.5:7b`, `llama3.2`) with semantic scoring and fact-grounded ATS tailoring.
+* Strict **human-in-the-loop security gate**, enterprise SQLite WAL persistence, constant-time token comparison, and deep anti-SSRF defenses.
+* `Tags:` *AI Agents • Ollama • ATS Automation • Python / TypeScript • SSRF Hardening • SQLite WAL • Local-First*
 
 #### 🛡️ [Enterprise DevSecOps CI/CD Pipeline Template](https://github.com/rahulmotvani0-sketch/devsecops-secure-cicd-template)
 * 7 modular, reusable composite GitHub Actions providing shift-left security quality gates adopting with 3 lines of YAML.
@@ -72,6 +74,17 @@
 * Fully automated infrastructure provisioning via **Terraform** and keyless GitHub Actions **OIDC federation**.
 * `Tags:` *AWS • Terraform • Lambda • DynamoDB • API Gateway • WAFv2 • Security • Python*
 
+#### ☸️ [Kubernetes GitOps & SRE Observability Platform](https://github.com/rahulmotvani0-sketch/kubernetes-gitops-observability-platform)
+* Turnkey multi-node Kind cluster bootstrapping driven declaratively by the **ArgoCD App-of-Apps pattern**.
+* Complete **Prometheus & Grafana RED** monitoring stack with Alertmanager routing and automated chaos engineering failure recovery.
+* Full distributed logging pipeline using **Grafana Loki** and **Promtail DaemonSet**.
+* `Tags:` *Kubernetes • GitOps • ArgoCD • Prometheus • Grafana • Loki • SRE • Chaos Engineering*
+
+#### 🖥️ [DevSecOps AI Assistant & Security Lab Desktop App](https://github.com/rahulmotvani0-sketch/DEVSECOPS-AI-WORKSPACE)
+* Cross-platform desktop application built with **Rust**, **Tauri**, and **TypeScript**.
+* Local security workbench for offline vulnerability scanning, IaC remediation, and AI-assisted DevOps workflows.
+* `Tags:` *Rust • Tauri • TypeScript • DevSecOps • Desktop App • Security Analysis*
+
 ---
 
 ### 🧪 Cloud-Native & Production Labs Showcase
@@ -83,6 +96,14 @@
 | 🕸️ [**Istio Zero-Trust Service Mesh**](https://github.com/rahulmotvani0-sketch/istio-service-mesh-zero-trust) | Istio, Envoy, mTLS | STRICT mTLS encryption across pods, default-deny L7 `AuthorizationPolicy`, SPIFFE service account authentication, and 90/10 Canary traffic splitting. |
 | 💾 [**Velero Disaster Recovery & Backup**](https://github.com/rahulmotvani0-sketch/velero-disaster-recovery-backup) | Velero, AWS S3 / GCS | Daily automated backup schedules, volume snapshotting, 30-day retention, and one-command disaster recovery drill script (RTO < 15 min). |
 | 🐧 [**Linux SRE Automation Engine**](https://github.com/rahulmotvani0-sketch/linux-shell-automation-engine) | Bash, POSIX, Cron | SRE threshold monitoring (CPU/Mem/Disk), Slack/Teams webhook alerts, rotating backups with SHA-256 integrity verification. |
+
+---
+
+### 🌐 [Interactive Cloud Engineering Portfolio](https://github.com/rahulmotvani0-sketch/portfolio)
+👉 Experience the live interactive portfolio at **[rahul.techiking.com](https://rahul.techiking.com)**:
+* **Interactive SRE Sandbox:** Real-time incident response simulator testing automated playbooks against 4 production failure scenarios.
+* **System Topology Explorer:** Visual architecture diagrams for DevSecOps pipelines, AI microservices, and multi-cloud IaC.
+* **Recruiter & ATS Matrix:** Executive skill matrix tailored for engineering leaders and hiring teams.
 
 ---
 
@@ -109,4 +130,4 @@
 - 🌐 **Interactive Portfolio:** [rahul.techiking.com](https://rahul.techiking.com)
 - 🎯 **TryHackMe:** [tryhackme.com/p/rahulmotvani8gma](https://tryhackme.com/p/rahulmotvani8gma)
 - 📧 **Direct Email:** [rahulmotvani8@gmail.com](mailto:rahulmotvani8@gmail.com)
-- 🤝 **Open to:** DevOps Engineer, DevSecOps Specialist, SRE, and Cloud Platform Engineering roles.
+- 🤝 **Open to:** Senior DevOps Engineer, DevSecOps Specialist, SRE, and Cloud Platform Engineering roles.
