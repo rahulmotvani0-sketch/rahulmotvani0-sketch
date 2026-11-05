@@ -147,4 +147,4 @@
 - 🌐 **Interactive Portfolio:** [rahul.techiking.com](https://rahul.techiking.com)
 - 🎯 **TryHackMe:** [tryhackme.com/p/rahulmotvani8gma](https://tryhackme.com/p/rahulmotvani8gma)
 - 📧 **Direct Email:** [rahulmotvani8@gmail.com](mailto:rahulmotvani8@gmail.com)
-- 🤝 **Open to:** Senior DevOps Engineer, DevSecOps Specialist, SRE, and Cloud Platform Engineering roles.
+- 🤝 **Open to:** DevOps Engineer, DevSecOps Specialist, SRE, and Cloud Platform Engineering roles.
