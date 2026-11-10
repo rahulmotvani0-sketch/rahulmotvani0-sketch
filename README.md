@@ -96,6 +96,9 @@
 | 🕸️ [**Istio Zero-Trust Service Mesh**](https://github.com/rahulmotvani0-sketch/istio-service-mesh-zero-trust) | Istio, Envoy, mTLS | STRICT mTLS encryption across pods, default-deny L7 `AuthorizationPolicy`, SPIFFE service account authentication, and 90/10 Canary traffic splitting. |
 | 💾 [**Velero Disaster Recovery & Backup**](https://github.com/rahulmotvani0-sketch/velero-disaster-recovery-backup) | Velero, AWS S3 / GCS | Daily automated backup schedules, volume snapshotting, 30-day retention, and one-command disaster recovery drill script (RTO < 15 min). |
 | 🐧 [**Linux SRE Automation Engine**](https://github.com/rahulmotvani0-sketch/linux-shell-automation-engine) | Bash, POSIX, Cron | SRE threshold monitoring (CPU/Mem/Disk), Slack/Teams webhook alerts, rotating backups with SHA-256 integrity verification. |
+| ☁️ [**AWS Multi-Tier Terraform ECS**](https://github.com/rahulmotvani0-sketch/terraform-aws-multi-tier-ecs) | Terraform, AWS, ECS Fargate | Production-grade multi-architecture IaC on AWS: decoupled EC2 tiers, ECS Fargate with ECR and Application Load Balancer. |
+| 🚀 [**Jenkins Automated CI/CD Pipeline**](https://github.com/rahulmotvani0-sketch/jenkins-automated-cicd-pipeline) | Jenkins, AWS EC2, Webhooks | Automated Jenkins pipeline on AWS EC2 with multi-stage build, test, PM2 process management, and GitHub webhooks. |
+| ☸️ [**K8s Multi-Tier FullStack Deploy**](https://github.com/rahulmotvani0-sketch/k8s-fullstack-microservices-deploy) | Kubernetes, Flask, Node.js | Multi-tier microservices on Kubernetes with Ingress routing, ConfigMaps, Secrets, and automated service discovery. |
 
 ---
 
