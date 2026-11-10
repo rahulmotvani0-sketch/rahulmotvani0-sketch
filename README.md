@@ -91,6 +91,7 @@
 
 | Project | Tech Stack | Architecture & Description |
 | :--- | :--- | :--- |
+| 🛡️ [**Zero-Trust Admission Shield**](https://github.com/rahulmotvani0-sketch/kubernetes-zero-trust-admission-shield) | Kyverno, Cosign, Tetragon eBPF | In-cluster cryptographic admission control, Sigstore Cosign verification, Pod Security Standards (Restricted), and eBPF kernel runtime guard. |
 | 🛡️ [**Distroless Container Hardening**](https://github.com/rahulmotvani0-sketch/docker-multistage-production-hardening) | Docker, Distroless, Trivy | Multi-stage Distroless runtime (<15MB), non-root (`65532:65532`), `read_only` rootfs, `cap_drop: ALL`, Trivy vulnerability gates. |
 | ☸️ [**K8s High Availability & Autoscaling**](https://github.com/rahulmotvani0-sketch/k8s-autoscaling-high-availability) | Kubernetes, HPA v2, PDB | HPA v2 autoscaling (2 to 10 replicas), PodAntiAffinity across nodes, PodDisruptionBudgets (`minAvailable: 1`), zero-downtime rolling updates. |
 | 🕸️ [**Istio Zero-Trust Service Mesh**](https://github.com/rahulmotvani0-sketch/istio-service-mesh-zero-trust) | Istio, Envoy, mTLS | STRICT mTLS encryption across pods, default-deny L7 `AuthorizationPolicy`, SPIFFE service account authentication, and 90/10 Canary traffic splitting. |
